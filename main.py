@@ -1,7 +1,9 @@
 import argparse
 import json
 import requests, re, operator
-from lyrics_api import return_lyrics
+from lyrics_finder import return_lyrics
+from lyrics_api import *
+
 headers = {
     'x-rapidapi-host': "ENTER WORDS API HOST URL",
     'x-rapidapi-key': "ENTER API KEY FOR WORDS API"
