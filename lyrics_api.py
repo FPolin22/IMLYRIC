@@ -4,7 +4,7 @@ base_url = "https://api.musixmatch.com/ws/1.1/"
 # your api key
 api_key = "&apikey=f7c68bc20cd37e4679746653dd16e65f"
 
-# api methods
+# api methods (not everything will be used)
 a1 = lyrics_matcher = "matcher.lyrics.get"
 a2 = lyrics_track_matcher = "track.lyrics.get"
 a3 = track_matcher = "matcher.track.get"
